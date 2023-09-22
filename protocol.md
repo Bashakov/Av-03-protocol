@@ -525,7 +525,7 @@ _ | **Получение общих данных о сессии**
 Данные о глобальном положении.
 
 ``` c++
-    struct SIndexFilter
+    struct SGlobalPos
     {
         double latitude;    ///< широта
         double longitude;   ///< долгота
